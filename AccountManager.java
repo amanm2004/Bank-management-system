@@ -16,6 +16,7 @@ public class AccountManager {
         scanner.nextLine();
         System.out.println("Enter Amount: ");
         double amount = scanner.nextDouble();
+        scanner.nextLine();
         System.out.println("Enter Password: ");
         String security_pin = scanner.nextLine();
        try {
@@ -57,9 +58,10 @@ public class AccountManager {
         scanner.nextLine();
         System.out.println("Enter Amount: ");
         double amount = scanner.nextDouble();
+        scanner.nextLine();
         System.out.println("Enter Password: ");
         String security_pin = scanner.nextLine();
-        scanner.nextLine();
+       
         try {
             connection.setAutoCommit(false);
             if (account_number!=0) {
@@ -108,8 +110,10 @@ public class AccountManager {
         scanner.nextLine();
         System.out.println("Enter receiver's account number : ");
         long receiver_account_number = scanner.nextLong();
+
         System.out.println("Enter amount : ");
         double amount = scanner.nextDouble();
+        scanner.nextLine();
         System.out.println("Enter password : ");
         String security_pin = scanner.nextLine();
         try {
