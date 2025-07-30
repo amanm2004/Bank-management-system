@@ -1,4 +1,16 @@
-its an terminal based java project I made while learning JDBC concepts 
-its an basic bank management system application 
-Im using mysql as database
-Im following a video on youtube made by Indian programmer url = https://youtu.be/p_-GZTStkoI?si=6DcEN9uKxGeYldm7
+# Bank Management System
+
+A simple **Bank Management System** developed in **Java**, offering basic banking functionalities like creating an account, deposit/withdraw operations, viewing and modifying account details — all through a console-based interface.
+
+## 🚀 Features
+
+- Create new bank accounts
+- View account details
+- Deposit and withdraw funds
+
+
+## 🛠️ Tech Stack
+
+- **Language**: Java
+- **Compiler**: javac
+- **Platform**: Console-based (CLI)
